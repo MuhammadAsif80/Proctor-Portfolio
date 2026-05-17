@@ -249,10 +249,53 @@ nav a:hover{
 
 footer{
   text-align:center;
-  padding:24px 0;
+  padding:28px 0;
   border-top:1px solid rgba(255,255,255,0.07);
   color:#475569;
   font-size:14px;
+}
+
+.footer-inner{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:16px;
+}
+
+.footer-links{
+  display:flex;
+  gap:24px;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.footer-links a{
+  color:#64748b;
+  text-decoration:none;
+  font-size:14px;
+  transition:0.3s;
+}
+
+.footer-links a:hover{
+  color:#38bdf8;
+}
+
+.btn-etsy{
+  background:#f1641e !important;
+}
+
+.btn-etsy:hover{
+  background:#d4531a !important;
+  transform:translateY(-4px);
+}
+
+.btn-linkedin{
+  background:#0077b5 !important;
+}
+
+.btn-linkedin:hover{
+  background:#005f8e !important;
+  transform:translateY(-4px);
 }
 
 .contact-section{
